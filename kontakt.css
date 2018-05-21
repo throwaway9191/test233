@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: linear-gradient(lightgray, black);
+  background: linear-gradient(gray, black);
   height: 100%;
   width: 100%;
   text-align: center;
@@ -61,7 +61,7 @@ color: white;
   left: 0;
   top: 0;
   filter: grayscale(100%);
-  filter: brightness(50%);
+  filter: brightness(30%);
   filter: blur(360px);
   filter: opacity(30%);
 }
@@ -70,42 +70,59 @@ color: white;
   position: relative;
   display: inline-block;
   top: 23%;
-}
-
-#header1 {
-  font-size: 3em;
-  color: whitesmoke;
-  margin-bottom: 1em;
-}
-
-#header2 {
-  font-size: 1.5em;
-  color: whitesmoke;
-  margin-bottom: 6em;
-}
-
-.button {
-  margin: 0 1.5em 0 1.5em;
-  color: #EEE;
-  padding-top: 0.5em;
-  display: inline-block;
-  width: 220px;
-  height: 40px;
-  border-radius: 10px;
-  font-size: 22px;
   
-  transition: all 1s;
+  padding-top: 1em;
+  color: whitesmoke;
+  
+  width: 100%;
+  height: 30%;
 }
 
-.button:hover {
-  transform: scale(1.05);
+
+h1 {
+font-size: 1.8em;
+}
+.upload {
+  background: linear-gradient(#444, #454);
+  width: 15em;
+  padding-top: 1em;
+  height: 17em;
+  border: dashed 1px gray;
+  display: inline-block;
+  margin: 0 5% 0 5%;
 }
 
-#btn1 {
-  background: linear-gradient(lightgreen, green);
-  filter: opacity(0.85);
+button {
+  display: inline-block;
 }
 
-#btn2 {
-  background: linear-gradient(lightblue, rgba(60, 60, 250, 0.85));
+img {
+margin-top: 1em;
+display: inline-block;
+  height: 8em;
+  filter: opacity(0.2);
+}
+
+h2 {
+margin-top: 1.5em;
+font-size: 20px;
+}
+
+.upload:hover {
+filter: brightness(120%);
+}
+
+.line {
+height: 1em;
+position: relative;
+}
+
+.inputrect {
+position: relative;
+top: 0.35em;
+  display: inline-block;
+  width: 30%;
+  background-color: #AAA;
+  border: dotted 1px gray;
+  height: 1.2em;
 }
